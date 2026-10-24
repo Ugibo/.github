@@ -1,0 +1,15 @@
+name: Idea
+description: Something you would like it to do.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you are trying to do
+      description: The job, not the solution. What takes too long or does not work today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
